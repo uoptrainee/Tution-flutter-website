@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:website/Landingpage/Landingpage.dart';
-import 'package:website/Landingpage/LandingpageCourse.dart';
-import 'package:website/Navbar/Getstarted/Getstrated.dart';
-// import 'package:website/Landingpage/Landingpage.dart';
-// import 'package:website/Navbar/Navbar.dart';
+import 'package:website/Flutter/FlutterStart.dart';
+import 'package:website/Flutter/LandingPageF/LandingPageF.dart';
 
-class Coursedetails extends StatelessWidget {
-  const Coursedetails({super.key});
+class Flutter extends StatelessWidget {
+  const Flutter({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,17 +18,14 @@ class Coursedetails extends StatelessWidget {
         ),
      child: SingleChildScrollView(
           child: Column(
-           children: [Navbar1() , Padding(
+           children: [FlutterStart() , Padding(
              padding: const EdgeInsets.symmetric(vertical: 20.0,horizontal: 40.0),
-             child: LandingPageCourse(),
+             child: LandingPageF(),
              
            )],
           ),
         ),
       ),
     );
-
-   
-    
   }
 }

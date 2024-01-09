@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Mobilenavbar1 extends StatelessWidget {
-  const Mobilenavbar1({Key? key}) : super(key: key);
+class MobileNavbarR extends StatelessWidget {
+  const MobileNavbarR({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class Mobilenavbar1 extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'welcome to mobile application development',
+                    'ReactNative Development',
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
