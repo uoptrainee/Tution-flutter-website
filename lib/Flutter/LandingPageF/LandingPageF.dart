@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:website/EnrollNow/Enroll.dart';
 
 class LandingPageF extends StatelessWidget {
   const LandingPageF({super.key});
@@ -63,7 +64,12 @@ class LandingPageF extends StatelessWidget {
   height: 50,   // Set your desired height
   color: Colors.white,
   shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(20.0))),
-  onPressed: () {},
+  onPressed: () {
+    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Enroll()),
+                      );
+  },
   child: Padding(
     padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
     child: Text(
