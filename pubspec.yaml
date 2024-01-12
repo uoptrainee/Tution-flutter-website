@@ -68,6 +68,9 @@ flutter:
     - assets/images/java.png
     - assets/images/react.png
     - assets/images/sucess.png
+    - assets/images/apple.png
+    - assets/images/master.png
+    - assets/images/paypel.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
