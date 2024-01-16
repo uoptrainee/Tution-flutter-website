@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:website/EnrollNow/Desktop/LAndingEnroll.dart';
+import 'package:website/EnrollNow/Enroll.dart';
+import 'package:website/EnrollNow/EnrollStart.dart';
 import 'package:website/Landingpage/Landingpage.dart';
 import 'package:website/Navbar/Navbar.dart';
 //import 'package:website/Navbaritems/Coursedetails.dart';
